@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Environments
+.venv/
+venv/
+.env
+conda/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / outputs (按你项目习惯可增删)
+outputs/
+output/
+results/
+Fuse_results/
+final_test/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Model checkpoints / weights (非常重要：别上传大权重)
+ckpts/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# HF cache
+.cache/
+huggingface/
